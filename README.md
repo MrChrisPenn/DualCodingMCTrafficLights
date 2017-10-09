@@ -49,7 +49,21 @@ Connect your LEDs to the following pins:
 
 ## Getting into the loop
 This code block needs to be broken down and explained in turn to try and make sense of how it works. Here is the code:
-![](4.png)
+![](3.png)
+1.
+2.
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11.
+12. 
+13. 
+
 
 7. Save the code.
 7. Open Minecraft.
@@ -57,7 +71,7 @@ This code block needs to be broken down and explained in turn to try and make se
 9. Press tab on the keyboard, click run and see your message on screen, like below:
 
 ## In action
-![](Minecraft.png)
+![](output.png)
 
 ## The EduBocks code
 
@@ -102,4 +116,4 @@ while True:
 7. If you click back onto the Minecraft world your message should appear like below:
 
 ## In action
-![](Minecraft.png)
+![](output.png)
