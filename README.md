@@ -31,13 +31,13 @@ curl -sSL get.edublocks.org | bash
 ## Digging into The EduBlocks code
 
 3. Click on the Minecraft coding tab 
-4. Drag in and drop the two libraries that you need to borrow code from, the blocks look like this:
+4. Drag in and drop the two Minecraft libraries that you need to borrow code from, the blocks look like this:
+5. Click on the INSERT NAME OF SUB TAB tab and drag in Minecraft.create() block
 ![](1.png)
-![](2.png)
+6. Congratulations!  you have now successfully connected your code to Minecraft. Next up we need to click on the Gpio Zero tab and then select the Output subtab. Firstly, we need to import the Gpiozero library code. 
+7. Next up we can define three leds with names Red, Amber and Green and attach the pin list if the pin numbers that control each LED.
 
-5. Click on the INSERT NAME OF SUB TAB tab and drag in the next few blocks that look like this:
-![](3.png)
-![](4.png)
+![](2.png)
 
 6. Save the code.
 7. Open Minecraft.
