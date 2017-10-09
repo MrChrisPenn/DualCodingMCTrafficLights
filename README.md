@@ -75,7 +75,7 @@ This code block needs to be broken down and explained in turn to try and make se
 
 ## The EduBocks code
 
-![](code.png)
+![](edu blocks code all.png)
 
 ## The Python code
 1. Click on the menu > programming > Python 3.
