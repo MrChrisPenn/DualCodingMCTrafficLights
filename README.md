@@ -23,23 +23,35 @@ curl -sSL get.edublocks.org | bash
 5. You will now be able to see EduBlocks in the Raspberry Pi >> Programming menu. Click on the EduBlocks link to run the program.
 6. After around half a minute, you should be able to see the EduBlocks workspace.
 
+## Connecting the Traffic lights
+Connect your LEDs to the following pins:
+
+| LED       | GPIO  |
+| --------- | :------: |
+| Red       | 22       |
+| Amber     | 27       |
+| Green     | 17       |
+
 ## Getting started with the code
 
 1. Open EduBlocks from the Desktop icon.
-2. Click on the Minecraft coding tab on the left handside
+2. Click on the Minecraft coding tab on the left handside of the EduBlocks interface.
 
 ## Digging into The EduBlocks code
 
-3. Click on the Minecraft coding tab 
-4. Drag in and drop the two Minecraft libraries that you need to borrow code from, the blocks look like this:
-5. Click on the INSERT NAME OF SUB TAB tab and drag in Minecraft.create() block
+3. Drag in and drop the two Minecraft libraries that you need to borrow code from, the blocks look like this:
+4. Click on the INSERT NAME OF SUB TAB tab and drag in Minecraft.create() block
 ![](1.png)
-6. Congratulations!  you have now successfully connected your code to Minecraft. Next up we need to click on the Gpio Zero tab and then select the Output subtab. Firstly, we need to import the Gpiozero library code. 
-7. Next up we can define three leds with names Red, Amber and Green and attach the pin list if the pin numbers that control each LED.
+5. Congratulations!  you have now successfully connected your code to Minecraft. Next up we need to click on the Gpio Zero tab and then select the Output subtab. Firstly, we need to import the Gpiozero library code. 
+6. Next up we can define three leds with names Red, Amber and Green and attach the pin list if the pin numbers(see above) that control each LED.
 
 ![](2.png)
 
-6. Save the code.
+## Getting into the loop
+This code block needs to be broken down and explained in turn to try and make sense of how it works. Here is the code:
+![](4.png)
+
+7. Save the code.
 7. Open Minecraft.
 8. Open a new world.
 9. Press tab on the keyboard, click run and see your message on screen, like below:
