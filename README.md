@@ -50,25 +50,28 @@ Connect your LEDs to the following pins:
 ## Getting into the loop
 This code block needs to be broken down and explained in turn to try and make sense of how it works. Here is the code:
 ![](3.png)
-1.
-2.
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11.
-12. 
-13. 
 
+1. You can drag in the while True: loop so that your program can permanently repeat.
+2. From the basics menu you can find number two block and create a list that stores the most recent blocks that you have hit
+3. Creates a loop
+4. Picks up the current position of the block
+5. Takes x, y, z positions of the current block
+6. Asks the question if the block id is 46, TNT then carryout the next instruction 
+7. Post message to chat8. Turn on the Red led to on
+9. Wait for 1 second
+10. Turn on the Amber led to on
+11. Wait for 1 second
+12. Turn on the Green led to on
+13. Wait for 1 second
 
-7. Save the code.
-7. Open Minecraft.
-8. Open a new world.
-9. Press tab on the keyboard, click run and see your message on screen, like below:
+Nearly there well done for sticking with it, next up.....
+
+14.You need to save the code as an xml file e.g. 'Traffic lights.XML'
+15. Next up open Minecraft.
+16. Then you need to open a new world.
+17. In Minecraft world lay a TNT block. 
+18. Next up, run the code from EduBlocks and switch back to Minecraft.
+19. If you whack the TNT block, you should see lights turn on. Congratulations :) 
 
 ## In action
 ![](output.png)
